@@ -3,7 +3,8 @@
 *main - print 10 times the alphabet
 *
 *Description: 'prints 10 times the alphabet, in lowercase'
-*
+*prints 10 times the alphabet, in lowercase
+*followed by a new line
 *Return: always 0 on success
 */
 void print_alphabet_x10(void)
