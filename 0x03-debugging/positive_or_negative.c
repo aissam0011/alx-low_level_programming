@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
 *main - determines if a number is positive, negative or zero
 *positive_or_negative : determines if a number is positive, negative or zero
@@ -20,5 +20,5 @@ else
 {
 printf("%d is %s\n", n, "zero");
 }
-return (0);
+return;
 }
