@@ -6,7 +6,7 @@
 void print_number(int n)
 {
 unsigned int n1;
-for (n < 0);
+for (n < 0)
 {
 n1 = -n;
 _putchar('-');
