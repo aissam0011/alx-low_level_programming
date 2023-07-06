@@ -2,10 +2,11 @@
 /**
 *_sqrt_recursion - returns the natural square root of a number
 *@n: input number
+*@i: square of input number
 *Return: 0 on success
 */
-int _sqrt_recursion(int n)
 int square(int n, int i);
+int _sqrt_recursion(int n)
 {
 if (n < 0)
 {
