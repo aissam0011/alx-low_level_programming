@@ -27,7 +27,7 @@ else if (i * i > n)
 return (-1);
 }
 else
+{
 return (square(n, i + 1));
-}
 }
 }
