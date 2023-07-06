@@ -16,6 +16,14 @@ else
 {
 return (square(n, 0));
 }
+/**
+*square - recurses to find the natural square root of a number
+*@n: input number
+*@i: square of input number
+*Return: the result
+*/
+int square(int n, int i)
+{
 if (i * i == n)
 {
 return (i);
@@ -25,5 +33,6 @@ return (-1);
 }
 else
 return (square(n, i + 1));
+}
 }
 }
