@@ -17,6 +17,7 @@ else
 {
 return (actual_prime_number(n, n - 1));
 }
+}
 /**
 *actual_prime_number - the prime number
 *@n: input integer
@@ -36,6 +37,5 @@ return (0);
 else
 {
 return (actual_prime_number(n, i - 1));
-}
 }
 }
