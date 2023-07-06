@@ -3,18 +3,12 @@
 *_sqrt_recursion - returns the natural square root of a number
 *@n: input number
 *@i: square of input number
-*Return: 0 on success
+*Return: the result
 */
 int square(int n, int i);
 int _sqrt_recursion(int n)
 {
-if (n < 0)
-{
-return (-1);
-}
-else
-{
-return (square(n, 0));
+return (square(n, 1));
 }
 /**
 *square - recurses to find the natural square root of a number
@@ -33,6 +27,5 @@ return (-1);
 }
 else
 return (square(n, i + 1));
-}
 }
 }
